@@ -1,3 +1,3 @@
 // SINGLETON
-// require('./singleton/singleton')
-require('./singleton/singleton.ejemplo')
+// require('./singleton/javascript/singleton')
+require('./singleton/javascript/singleton.ejemplo')

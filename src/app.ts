@@ -1,2 +1,2 @@
 // SINGLETON
-require('./singleton/singleton.ts')
+require('./singleton/typescript/singleton.ts')
