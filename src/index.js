@@ -1,3 +1,3 @@
-// singleton
-import singleton from './singleton'
-singleton()
+// SINGLETON
+// require('./singleton/singleton')
+require('./singleton/singleton.ejemplo')
