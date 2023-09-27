@@ -3,10 +3,11 @@ class Singleton {
     console.log('entro al constructor')
     if (!Singleton.instance) {
       console.log('No existe la instancia')
-      return (Singleton.instance = this)
+      Singleton.instance = this
+      return Singleton.instance
     }
     console.log('existe la instancia')
-    Singleton.instance
+    return Singleton.instance
   }
 
   get() {
@@ -19,5 +20,3 @@ const singleton = new Singleton()
 
 console.log('******** Segunda Instancia')
 const singleton2 = new Singleton()
-
-module.export = { singleton, singleton2 }

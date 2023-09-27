@@ -1,2 +1,3 @@
-// singleton
-require('./singleton/singleton')
+// SINGLETON
+// require('./singleton/singleton')
+require('./singleton/singleton.ejemplo')
