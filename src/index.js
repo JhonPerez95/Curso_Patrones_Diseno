@@ -1,3 +1,2 @@
 // singleton
-import singleton from './singleton'
-singleton()
+require('./singleton/singleton')
