@@ -33,10 +33,13 @@ const observer1 = new Observer((data) => console.log('observer 1: ', data))
 const observer2 = new Observer((data) => {
   root1.innerHTML = 'Observer 2: ' + data
 })
-
+const observer3 = new Observer((data) => {
+  root2.innerHTML = 'Observer 3: ' + data.split('').reverse().join('')
+})
 // Suscribimos observers
 subject.subscribe(observer1)
 subject.subscribe(observer2)
+subject.subscribe(observer3)
 
 // Funcion del html
 function onChange() {
