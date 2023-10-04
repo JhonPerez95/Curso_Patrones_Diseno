@@ -3,4 +3,7 @@
 
 // STRATEGY
 // require('./strategy/typescript/strategy.ts')
-require('./strategy/typescript/strategy2.ts')
+// require('./strategy/typescript/strategy2.ts')
+
+// OBSERVER
+require('./observer/typescript/observer.ts')
