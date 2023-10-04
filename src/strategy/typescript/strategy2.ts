@@ -1,5 +1,5 @@
 import { IStrategy } from './interfaces'
-import { loginFacebookStrategy } from './FacebookStrategy'
+import { loginFacebookStrategy } from './facebookStrategy'
 import { loginGoogleStrategy } from './googleStrategy'
 
 class loginContext {
